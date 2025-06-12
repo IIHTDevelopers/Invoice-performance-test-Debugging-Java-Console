@@ -48,8 +48,8 @@ public class InvoiceServiceIntegrationTest {
         
         int count = 0;
         while (rs.next()) count++;
-        
-        yakshaAssert(currentTest(), durationMs < 200 && count == 20, businessTestFile);
+        System.out.println("Duration : " + durationMs);
+        yakshaAssert(currentTest(), durationMs < 140 && count == 20, businessTestFile);
         
     }
 }
