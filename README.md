@@ -7,7 +7,7 @@ This Maven project tests the performance of a SQL query using an embedded H2 dat
 ## Test Criteria
 
 - Fetches 20 invoices using a paginated query.
-- Test Passes if the query completes in under 200ms.
+- Test Passes if the query completes in under 140ms.
 
 #### Steps to Reproduce
  
