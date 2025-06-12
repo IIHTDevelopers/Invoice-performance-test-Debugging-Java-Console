@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c2d17d8c-5e4d-488c-9688-05df650cfae5)
+
 # Invoice (Query) Performance Test
 
 This Maven project tests the performance of a SQL query using an embedded H2 database.
